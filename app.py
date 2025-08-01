@@ -5,15 +5,19 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import gradio as gr
 
 # Load API Key from .env file
-load_dotenv()
-openai_api_key = os.getenv("OPENAI_API_KEY")
+#load_dotenv()
+#openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = os.environ.get("OPENAI_API_KEY")
 
 if not openai_api_key:
-    raise Exception("Please set your OPENAI_API_KEY in the .env file")
+    raise ValueError("Missing OPENAI_API_KEY in Hugging Face secrets.")
+
+#if not openai_api_key:
+ #   raise Exception("Please set your OPENAI_API_KEY in the .env file")
 
 # STEP 1: Load and Split Document
 print("🔹 Loading document...")
