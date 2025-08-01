@@ -37,19 +37,14 @@ source .venv/bin/activate
 
 ### 2. Install dependencies:
 pip install langchain faiss-cpu openai transformers PyMuPDF gradio
-
-
-### What these packages do:
-Package	Purpose
-langchain	Framework for chaining LLMs with memory, tools, and retrievers
-faiss-cpu	Fast vector similarity search for embedding-based retrieval
-openai	API client to access OpenAI models like GPT-3.5, GPT-4
-transformers	Hugging Face library to use models like BERT, GPT-2, Falcon, etc.
-PyMuPDF	Parses PDF content for document Q&A pipelines
-gradio	Creates a browser-based UI for chatbot interaction
+langchain: Framework for chaining LLMs with memory, tools, and retrievers
+faiss-cpu: Fast vector similarity search for embedding-based retrieval
+openai: API client to access OpenAI models like GPT-3.5, GPT-4
+transformers: Hugging Face library to use models like BERT, GPT-2, Falcon, etc.
+PyMuPDF: Parses PDF content for document Q&A pipelines
+gradio: Creates a browser-based UI for chatbot interaction
 
 File Structure:
-.
 ├── data/
 │   └── my_resume.pdf
 ├── app.py
