@@ -1,15 +1,12 @@
 # genai-rag-chatbot
 
 ### Ask Me Anything – RAG Chatbot using LangChain + OpenAI/Hugging Face
-### This is my first POC in LLMOps using RAG, LangChain 
-
-### Ask Me Anything – RAG Chatbot using LangChain + OpenAI/Hugging Face
 
 This is a lightweight Retrieval-Augmented Generation (RAG) chatbot that takes a document (e.g., PDF) and answers questions using LangChain, FAISS, and either OpenAI or Hugging Face Transformers.
 
 ---
 
-### 🚀 Objective
+###  Objective
 
 - Load and chunk a PDF or plain text file
 - Store embeddings in a vector database (FAISS)
@@ -18,7 +15,7 @@ This is a lightweight Retrieval-Augmented Generation (RAG) chatbot that takes a 
 
 ---
 
-### 🛠️ Tech Stack
+###  Tech Stack
 
 - Python 3.10+
 - [LangChain](https://github.com/hwchase17/langchain) – LLM chaining and orchestration
