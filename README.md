@@ -1,6 +1,6 @@
 # GenAI RAG Chatbot
 
-## GenAI RAG Chatbot – Resume Q&A with LangChain + OpenAI + Gradio
+## GenAI RAG Chatbot – Sample Document Q&A with LangChain + OpenAI + Gradio
 
 This is a Retrieval-Augmented Generation (RAG) chatbot that lets you ask questions about your own documents (like a sample PDF) using OpenAI’s GPT-3.5 Turbo and LangChain. It processes a PDF, embeds it using OpenAI Embeddings, stores it in a FAISS vector index, and serves a local Gradio web app for conversational querying.
 
