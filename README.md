@@ -31,12 +31,13 @@ This is a lightweight Retrieval-Augmented Generation (RAG) chatbot that takes a 
  Recommended: Do **not** install packages globally if you're using Homebrew Python. Use a virtual environment instead.
 
 ### 1. Create and activate a virtual environment:
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
+
+$ python3 -m venv .venv
+$ source .venv/bin/activate
 
 ### 2. Install dependencies:
-pip install langchain faiss-cpu openai transformers PyMuPDF gradio
+$ pip install langchain faiss-cpu openai transformers PyMuPDF gradio
+
 langchain: Framework for chaining LLMs with memory, tools, and retrievers
 faiss-cpu: Fast vector similarity search for embedding-based retrieval
 openai: API client to access OpenAI models like GPT-3.5, GPT-4
