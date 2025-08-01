@@ -1,3 +1,4 @@
+
 # GenAI RAG Chatbot
 
 ## GenAI RAG Chatbot – Resume Q&A with LangChain + OpenAI + Gradio
@@ -90,3 +91,18 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.chat_models import ChatOpenAI
 from langchain_openai import OpenAIEmbeddings
 
+=======
+---
+title: Genai Rag Chatbot
+emoji: 📊
+colorFrom: indigo
+colorTo: purple
+sdk: gradio
+sdk_version: 5.39.0
+app_file: app.py
+pinned: false
+short_description: GenAI RAG Chatbot – Sample Document Q&A with LangChain + Ope
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+>>>>>>> a8b7197d073066b2b01975403d9e5d5784b99377
